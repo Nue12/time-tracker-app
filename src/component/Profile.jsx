@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePicture from '../../public/images/image-jeremy.png'
+import profilePicture from '../../images/image-jeremy.png'
 
 export default function Profile({setMethod, method}) {
   if(method === 'weekly') {
