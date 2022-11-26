@@ -24,7 +24,7 @@ export default function TimeTrackTable({method}) {
     return(
       <section className=' relative mb-28 max-w-sm m-auto sm:w-60 sm:mb-36' key={data.title}>
         <div className={` z-0 ${data.color} h-14 flex items-center overflow-hidden rounded-xl`}>
-          <img src={`../../public/images/icon-${data.title.replace(" ", "-")}.svg`} alt='bgImgs' className='pl-48' />
+          <img src={`../../images/icon-${data.title.replace(" ", "-")}.svg`} alt='bgImgs' className='pl-48' />
         </div>
         <div className=' py-7 bg-neutral-Dark-blue z-10 absolute -bottom-24 w-full px-7 rounded-xl sm:-bottom-32'>
           <div className=' mb-1 flex items-center justify-between sm:mb-3'>
